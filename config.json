@@ -1,0 +1,14 @@
+{
+    "oidcClientId":"",
+    "oidcSecret": "",
+    "externalURL": "https://hostname:8081",
+    "listenAddress":"0.0.0.0:8081",
+    "targetUrl": "http://localhost:8080",
+    "oidcIssuer": "https://login.microsoftonline.com/<tenant>/v2.0/",
+    "exclusionList": [
+        "^/alfresco/webdav.*",
+        "^/alfresco/aos/.*",
+        "^/alfresco/.*"
+    ],
+    "logLevel": "DEBUG"
+}
